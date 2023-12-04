@@ -19,7 +19,8 @@ function Auth() {
       } else {
         // console.log(res.data.Status);
         setMess(res.data.Message);
-        alert(mess);
+        console.log(res.data.Status);
+        // alert(mess);
       }
     });
   }, []);

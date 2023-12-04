@@ -26,7 +26,7 @@ function Login() {
       .post("http://localhost:3001/createaccount", { name: nom, email, pass })
       .then((res) => {
         console.log(res);
-        navigate("/home");
+        navigate("/");
       });
   };
   const handleConnect = (ev) => {
